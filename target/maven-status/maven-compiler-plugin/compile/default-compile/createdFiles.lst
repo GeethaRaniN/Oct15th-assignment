@@ -1,0 +1,8 @@
+com\bean\DBConnection.class
+com\Restaurant\RestaurantServelt.class
+com\bean\RestaurantBean.class
+com\view\fetchservelt.class
+com\view\Restaurantdata.class
+com\bean\RestaurantEncapsulation.class
+com\view\menuservlet.class
+com\view\updateservlet.class

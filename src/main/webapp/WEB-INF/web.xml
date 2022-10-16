@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Restaurant</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+<servlet>
+  <servlet-name>RestaurantServelt</servlet-name>
+<servlet-class>com.Restaurant.RestaurantServelt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>RestaurantServelt</servlet-name>
+<url-pattern>/RestaurantServelt</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>Restaurantdata</servlet-name>
+<servlet-class>com.view.Restaurantdata</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Restaurantdata</servlet-name>
+<url-pattern>/Restaurantdata</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>menuservlet</servlet-name>
+<servlet-class>com.view.menuservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>menuservlet</servlet-name>
+<url-pattern>/menuservlet</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>updateservlet</servlet-name>
+<servlet-class>com.view.updateservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>updateservlet</servlet-name>
+<url-pattern>/updateservlet</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>fetchservelt</servlet-name>
+<servlet-class>com.view.fetchservelt</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>fetchservelt</servlet-name>
+<url-pattern>/fetchservelt</url-pattern>
+</servlet-mapping>
+</web-app>
