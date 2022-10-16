@@ -42,11 +42,11 @@
 <url-pattern>/updateservlet</url-pattern>
 </servlet-mapping>
 <servlet>
-  <servlet-name>fetchservlet</servlet-name>
-<servlet-class>com.view.fetchservlet</servlet-class>
+  <servlet-name>fetchservelt</servlet-name>
+<servlet-class>com.view.fetchservelt</servlet-class>
 </servlet>
 <servlet-mapping>
-<servlet-name>fetchservlet</servlet-name>
-<url-pattern>/fetchservlet</url-pattern>
+<servlet-name>fetchservelt</servlet-name>
+<url-pattern>/fetchservelt</url-pattern>
 </servlet-mapping>
 </web-app>
